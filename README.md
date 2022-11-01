@@ -15,17 +15,9 @@
 - [ ]  Попробуйте отфильтровать пользователей. Запрос mi должен вернуть три имени: mike, mishel и kamil
 
 
-
-https://github.com/GeeN33/Coursework_2.git
+https://github.com/GeeN33/flask_2.git
 
 Откройте склонированный репозиторий в PyCharm.
-
-### создайте файл .env
-- в файле .env данные для подключения к БД
-- host=127.0.0.1
-- user=*******
-- password=*******
-- db_name=Northwind_Traders
 
 ### Cоздайте виртуальное окружение:
 
