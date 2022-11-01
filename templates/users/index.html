@@ -1,0 +1,19 @@
+{% extends "index.html" %}
+
+{% block content %}
+
+<form action="/users/" method="get">
+  <input type="search" name="term" value="{{ search }}"/>
+  <input type="submit" value="search"/>
+</form>
+<div>
+    <ul>
+        {%for user in list_users %}
+              {% if  search in user %}
+                 <li>{{user}}</li>
+              {% endif %}
+         {% endfor %}
+   </ul>
+</div>
+
+{% endblock %}
